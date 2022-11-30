@@ -1,8 +1,8 @@
 package m8;
 
-public class Quad implements Shape{
+public class Quad extends Shape {
     @Override
-    public void haveShapeName() {
-        System.out.println("I'm a Quad");
+    public void getName() {
+        System.out.println("I'm Quad");
     }
 }

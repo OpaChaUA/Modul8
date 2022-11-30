@@ -1,8 +1,8 @@
 package m8;
 
-public class Circle implements Shape {
+public class Circle extends Shape{
     @Override
-    public void haveShapeName() {
+    public void getName() {
         System.out.println("I'm a Circle");
     }
 }
